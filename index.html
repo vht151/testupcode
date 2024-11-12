@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>baitapbuoi10</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: linear-gradient(#eb3349, #f45c43);
+        height: 100vh;
+        width: 100%;
+        /* chọn kiểu chữ, phải dẫn nguồn, chọn ở gg font */
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .box{
+        width: 400px;
+        height: 450px;
+        background: #fff;
+        margin: 0 auto;
+        margin-top: 70px;
+        border-radius: 5px;
+        text-align: center;
+        padding: 88px 20px;
+    }
+    .box input[type="email"], .box input[type="password"]{
+        width: 100%;
+        padding: 10px;
+        margin-top: 15px;
+        border: none;
+        background: #e9e7e7;
+    }
+    .box a{
+        margin-top: 15px;
+        display: block;
+        text-decoration: none; /*bỏ gạch chân */
+        color: #000;
+        opacity: 0.5;  /* độ mờ của màu chữ */
+       /* background: rgb(255, 64, 47); */
+    }
+    .box input[type="submit"]{
+        width: 35%;
+        margin-top: 15px;
+        padding: 13px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border: none;
+        cursor: pointer; /* Đổi con trỏ chuột thành hình bàn tay */
+        border-radius: 35px;
+        color: #fff;
+        background: rgb(255, 64, 47)
+    }
+    h1{
+        font-weight: 500;
+    }
+</style>
+<body>
+    <div class="box">
+        <h1>Sign in</h1>
+        <form action="">
+            <input type="email" placeholder="Email"><br>
+            <input type="password" placeholder="Password"><br>
+            <a href="#">Forgot your password?</a>
+            <input type="submit" value="Sign in">
+        </form>
+    </div>
+</body>
+</html>
